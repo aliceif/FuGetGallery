@@ -1,0 +1,11 @@
+[Unit]
+Description=An alternative web UI for browsing nuget packages
+
+[Service]
+Type=notify
+ExecStart=/bin/false
+SyslogIdentifier=FuGetGallery
+
+[Install]
+WantedBy=multi-user.target
+
